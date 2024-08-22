@@ -78,3 +78,67 @@ main .container{
     padding: 5px;
     border: 1px solid darkgreen;
 }
+
+.exmpl{
+    background-color: darkblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.d-block span {
+    display: block;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid darkred;
+}
+
+.d-inline span{
+    display: inline;
+    background-color: #00000085;
+    padding: 10px;
+    margin: 5px;
+}
+
+.d-flex span{
+    display: flex;
+    background-color: #00000085;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box-s{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.box-s input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+
+fieldset {
+    border: 2px solid #ccc;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wo--box-sizing .box-s{
+    box-sizing: content-box;
+}
+
+.mt10{
+    margin-top: 10px;
+}
