@@ -173,6 +173,9 @@ legend {
     display: flex;
     justify-content: center;
     gap: 10px;
+    height: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
 }
 
 .overflow div{
@@ -185,4 +188,64 @@ legend {
 
 .block-2{
     overflow: hidden;
+}
+
+.static {
+    position: static;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border: 1px solid #00796b;
+    color: black;
+}
+
+.relative {
+    position: relative;
+    background-color: #ffebee;
+    padding: 10px;
+    border: 1px solid #c62828;
+    color: black;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #d1c4e9;
+    padding: 10px;
+    border: 1px solid #7e57c2;
+    top: 0px;
+    left: 0px;
+    color: black;
+}
+
+.fixed {
+    position: fixed;
+    background-color: #fff59d;
+    padding: 10px;
+    border: 1px solid #fbc02d;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+}
+
+.sticky {
+    position: sticky;
+    background-color: #c8e6c9;
+    padding: 10px;
+    border: 1px solid #388e3c;
+    top: 0;
+    color: black;
+}
+
+.experem{
+    position: relative;
+    background-color: #7e57c2;
+    height: 250px;
+}
+
+.experem .ex-absolute{
+    position: absolute;
+    background-color: #000000;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
 }
